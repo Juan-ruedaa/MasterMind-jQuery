@@ -1,0 +1,125 @@
+body {
+    background-color: #84879c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+main {
+    background-color: #E6E6E6;
+    width: 60%;
+    padding: 2%;
+    height: 550px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px #424242; 
+    background-color: #e7e7e7;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin-top: 0.5%
+}
+
+header{
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+} 
+
+
+#intentosRealizados {
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#coloresPosibles {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.colores {
+    border-radius: 50%;
+    width: 40px;
+    min-height: 40px;
+    margin: 8px;
+}
+
+#red {
+    background-color: red;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#brown {
+    background-color: brown;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#botonComprobar{
+    background-color: #84879c; 
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-right: 8%; 
+    box-shadow: 2px 2px 2px #888888, 0px 0px 1px #888888;
+}
+
+
+.filaRellenar{
+    margin-left: 7%;
+}
+
+.combinacionPrueba {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 2px 12px;
+    background-color: moccasin;
+    border: 1px solid #888585;
+    display: inline-block;
+}
+
+.circulosAciertos {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    border: 1px solid #888585;
+    background-color: moccasin;
+    display: inline-block;
+    
+}
+
+
+#cuadroGanador{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
